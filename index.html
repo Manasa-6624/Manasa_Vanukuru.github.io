@@ -2,142 +2,137 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Resume - Manasa</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Manasa Vanukuru - Resume</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      margin: 30px;
-      line-height: 1.6;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #ffffff;
+      color: #2f3542;
+      margin: 0;
+      padding: 20px;
+    }
+    .container {
+      width: 100%;
+      max-width: 900px;
+      margin: 0 auto;
     }
     .header {
-      background-color:rgb(175, 100, 175);
-      color: white;
       text-align: center;
-      
+      margin-bottom: 10px;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 5px;
     }
     .header h1 {
       margin: 0;
+      font-size: 1.8em;
     }
-    .contact-info p {
-      margin: 4px 0;
+    .header p {
+      margin: 2px 0;
+      font-size: 0.85em;
     }
     h2 {
-      color: black;
-      background-color: rgb(234, 181, 234);
-      border-bottom: 2px solid blue;
-      padding-bottom: 5px;
-    }
-    ul {
-      list-style: none;
-      padding-left: 0;
-    }
-    ul li::before {
-      content: "\f111";
-      font-family: "Font Awesome 6 Free";
-      font-weight: 900;
-      display: inline-block;
-      margin-right: 10px;
-      font-size: 8px;
-      color: #007BFF;
+      color: #2c3e50;
+      margin: 10px 0 5px;
+      font-size: 1.2em;
+      border-bottom: 1px solid #ccc;
     }
     .section {
-      margin-bottom: 10px;
+      margin-bottom: 8px;
     }
-    .job-title {
-      font-weight: bold;
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.85em;
     }
-    .date {
-      float: right;
-      font-style: normal;
+    th, td {
+      padding: 4px;
+      border: 1px solid #ccc;
     }
-    .education-entry {
-      margin-bottom: 10px;
+    ul {
+      margin: 5px 0 5px 18px;
+      padding: 0;
+      font-size: 0.85em;
+    }
+    li {
+      margin-bottom: 3px;
+    }
+    a {
+      color: #2980b9;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
 <body>
-
-  <div class="header">
-    <div>
+  <div class="container">
+    <div class="header">
       <h1>Manasa Vanukuru</h1>
-      <div class="contact-info">
-        <p><strong>Phone:</strong> +91-9390248937</p>
-        <p><strong>Email:</strong> manasavanukuru6624@gmail.com</p>
-        <p><strong>Linked in:</strong> www.linkedin.com/in/manasa-vanukuru-448766275</p>
-        <p><strong>Github link:</strong>https://github.com/Manasa-6624</p>
-      </div>
+      <p><strong>Email:</strong> manasavanukuru6624@gmail.com | <strong>Phone:</strong> 9390248937</p>
+      <p><strong>Location:</strong> Vijayawada, Andhra Pradesh</p>
+      <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/manasa-vanukuru-448766275">linkedin.com/in/manasa-vanukuru</a> | <strong>GitHub:</strong> <a href="https://github.com/Manasa-6624">github.com/Manasa-6624</a></p>
+    </div>
+
+    <div class="section">
+      <h2>Career Objective</h2>
+      <p>To secure a software developer role in a reputed organization where I can apply my programming, analytical, and communication skills to contribute effectively and grow professionally.</p>
+    </div>
+
+    <div class="section">
+      <h2>Education</h2>
+      <table>
+        <tr><th>Qualification</th><th>Institution</th><th>Year</th><th>CGPA / %</th></tr>
+        <tr><td>B.Tech in ECE (up to 6th Sem)</td><td>PVP Siddhartha Institute of Technology</td><td>2022–26</td><td>8.62</td></tr>
+        <tr><td>Intermediate (MPC)</td><td>Sri Chaitanya Junior College</td><td>2020–22</td><td>96.4%</td></tr>
+        <tr><td>CBSE (10th Grade)</td><td>St. Ann's CBSE High School</td><td>2019–20</td><td>65.2%</td></tr>
+      </table>
+    </div>
+
+    <div class="section">
+      <h2>Technical Skills</h2>
+      <ul>
+        <li><strong>Languages:</strong> Java, C, Python (Basics)</li>
+        <li><strong>Web Technologies:</strong> HTML, CSS, JavaScript</li>
+        <li><strong>Database:</strong> SQL</li>
+        <li><strong>Tools:</strong> VS Code, MySQL Workbench</li>
+        <li><strong>Concepts:</strong> Data Structures, OOPs, Pseudocode</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Projects</h2>
+      <ul>
+        <li><strong>Social Media Analytics Platform:</strong> Designed a database-driven application using SQL, HTML, and CSS to monitor user engagement and sentiment on social media. Built dashboards for visualization and generated real-time insights.</li>
+        <li><strong>Shopping Trends Analysis:</strong> Used Excel, Python, and SQL to collect and analyze large-scale retail data. Applied statistical techniques to identify shopping behaviors, seasonality trends, and customer preferences.</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Internship</h2>
+      <p><strong>VLSI DFT Intern – BIST Technologies</strong><span style="float:right;">May 2024 – July 2024</span></p>
+      <p>Worked in the domain of VLSI Design for Testability (DFT) where I implemented Built-In Self-Test (BIST) methodologies and improved scan chain efficiency. Contributed to fault diagnosis simulations and helped improve overall fault coverage using EDA tools.</p>
+    </div>
+
+    <div class="section">
+      <h2>Certifications</h2>
+      <ul>
+        <li>Problem Solving through DSA in Java – BYTS</li>
+        <li>Java Programming – Infosys Springboard</li>
+        <li>Machine Learning in Python – Udemy</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Strengths</h2>
+      <ul>
+        <li>Strong analytical and problem-solving skills</li>
+        <li>Adaptable and quick learner</li>
+        <li>Effective communication and teamwork abilities</li>
+        <li>Detail-oriented and organized approach</li>
+      </ul>
     </div>
   </div>
-
-  <div class="section">
-    <h2>Career Objective</h2>
-    <p>Seeking employment in a company where I can grow professionally and personally to succeed in an environment of growth and excellence to meet personal and organizational goals.</p>
-  </div>
-
-  <div class="section">
-    <h2>Education</h2>
-    <p class="job-title">B.Tech (Electronics And Communication Engineering)<span class="date">2022 – 2026</span></p>
-    <ul>
-      <li>Prasad V Potluri Siddhartha Institute Of Technology</li>
-      <li><strong>CGPA :</strong>8.62 (VI SEMESTER)</li>
-    </ul>
-
-    <p class="job-title">Intermediate<span class="date">2020 - 2022</span></p>
-    <ul>
-      <li>Sri Chaitanya Junior College</li>
-      <li><strong>Percentage : </strong> 96.4</li>
-    </ul>
-
-    <p class="job-title">10th Standard<span class="date">2019 - 2020</span></p>
-    <ul>
-      <li>ST.ANN'S CBSE HIGH SCHOOL</li>
-      <li><strong>Percentage : </strong>65.2</li>
-    </ul>
-  </div>
-
-  <div class="section">
-    <h2>Projects</h2>
-    <div class="education-entry">
-      <p><strong>Analyzing shopping trends using Data Analysis</strong> <span class="date"><strong>Dec 2023 - Feb 2024</strong></span><br>
-      This project, titled “Analyzing Shopping Trends Using Data Analysis,” explores customer purchasing behavior 
-      by analyzing transactional and demographic data. Using Python (Pandas, Matplotlib) and SQL, it identifies 
-      patterns such as peak shopping times, popular product categories, and trends across age and gender groups. 
-    </p>
-    </div>
-    <div class="education-entry">
-      <p><strong>Detection of Worm infestation using IOT</strong> <span class="date"><strong>Jun 2024 - Sep 2024</strong></span><br>
-        This project focuses on detecting worm infestations in agricultural crops using Internet of Things (IoT) technologies.
-         It integrates multiple sensors—such as temperature, humidity, soil moisture, and camera modules—to monitor field conditions 
-         in real time. Tools like Arduino Uno or Raspberry Pi are used as the central processing units to collect and transmit sensor data.
-          The camera captures crop images periodically, which are analyzed using image processing techniques (e.g., OpenCV) to detect signs 
-          of worm infestation such as leaf damage. The collected data is sent to a cloud platform (like ThingSpeak, Google Firebase, or AWS 
-          IoT) for further analysis and visualization.
-         When infestation is detected, alerts are sent to farmers through mobile apps
-      </p>
-    </div>
-  </div>
-
-  <div class="intern">
-    <h2>Internship</h2>
-    <p><strong>BIST Technologies pvt.ltd</strong></p>
-    <ul>
-      <li>VLSI Design for Testability</li>
-      <p>During my internship as a VLSI Design for Testability (DFT) intern, I gained hands-on experience in implementing and analyzing Built-In Self-Test (BIST) techniques for digital circuits. I worked on scan chain insertion, test pattern generation, and fault coverage analysis using industry-standard EDA tools. This role helped me deepen my 
-        understanding of DFT methodologies and enhance my
-         skills in designing testable and reliable VLSI systems.</p>
-
-    </ul>
-    <p><strong>Eduskills Virtual Internship</strong></p>
-
-  </div>
-  <div class="section">
-    <h2>Skills Set</h2>
-    <p><strong>Technical Skills:</strong> C,Java,Python,Html,CSS,Java Script,Data Structures,Algorithms,Cloud computing</p>
-    <p><strong>Certifications:</strong>Cloud Computing(NPTEL), problem-solving through DSA in Java (BYTS),Machine Learning in Python(Udemy)</p>
-    <p><strong>Awards/Activities:</strong> Achieving of ISTE and IETE membership</p>
-  </div>
-
 </body>
 </html>
